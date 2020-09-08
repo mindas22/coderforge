@@ -6,5 +6,5 @@ function createCard() {
 }
 
 
-document.querySelector('.btn').addEventListener('mouseenter', createCard)
+document.querySelector('.btn').addEventListener('click', createCard)
 
