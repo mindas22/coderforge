@@ -10,6 +10,7 @@ function createCard() {
   console.log("from createcard");
 }
 
-document.querySelector(".btn").addEventListener("mouseenter", createCard);
+
+document.querySelector('.btn').addEventListener('click', createCard)
 
 document.querySelector(".btn2").addEventListener("click", createCard);
